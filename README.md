@@ -1,4 +1,4 @@
-# whattimeisit
+# whattime
 Shows your current time right from the terminal.
 
 ## Usage

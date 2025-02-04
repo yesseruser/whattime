@@ -230,7 +230,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "whattimeisit"
+name = "whattime"
 version = "1.0.0"
 dependencies = [
  "chrono",

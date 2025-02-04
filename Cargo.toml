@@ -1,5 +1,5 @@
 [package]
-name = "whattimeisit"
+name = "whattime"
 version = "1.0.0"
 edition = "2021"
 description = "See the current time at any time!"
