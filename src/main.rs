@@ -5,8 +5,8 @@ use crate::time::Time;
 use chrono::Local;
 
 fn main() {
-    let datetime = Local::now().naive_local();
-    let time = Time::from_datetime(&datetime);
+    let naive_time = Local::now().naive_local().time();
+    let time = Time::from_naive_time(&naive_time);
     let formatted = time.to_string();
     println!("It's {formatted}");
 }
