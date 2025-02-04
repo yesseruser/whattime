@@ -1,3 +1,6 @@
+use chrono::Local;
+
 fn main() {
-    println!("Hello, world!");
+    let datetime = Local::now();
+    println!("It's {}", datetime.format("%H:%M:%S"));
 }
