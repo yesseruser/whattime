@@ -1,4 +1,4 @@
-use chrono::{DateTime, Local, Timelike};
+use chrono::{NaiveDateTime, Timelike};
 
 pub struct Time{
     pub hours: u32,
@@ -11,7 +11,7 @@ impl Time{
         Time{hours, minutes, seconds}
     }
 
-    pub fn from_datetime(datetime: &DateTime<Local>) -> Time {
+    pub fn from_datetime(datetime: &NaiveDateTime) -> Time {
         Time::new(datetime.hour(), datetime.minute(), datetime.second())
     }
 
