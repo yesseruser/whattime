@@ -5,7 +5,7 @@ edition = "2021"
 description = "See the current time at any time!"
 repository = "https://github.com/yesseruser/whattimeisit"
 homepage = "https://github.com/yesseruser/whattimeisit"
-license = "GPL-3"
+license = "GPL-3.0"
 
 [dependencies]
 chrono = "0.4"
