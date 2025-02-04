@@ -1,6 +1,11 @@
+mod time;
+
 use chrono::Local;
+use crate::time::Time;
 
 fn main() {
     let datetime = Local::now();
-    println!("It's {}", datetime.format("%H:%M:%S"));
+    let time = Time::from_datetime(&datetime);
+    let formatted = time.to_string();
+    println!("It's {formatted}");
 }
