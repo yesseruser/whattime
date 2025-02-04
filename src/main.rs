@@ -1,7 +1,8 @@
+mod tests;
 mod time;
 
-use chrono::Local;
 use crate::time::Time;
+use chrono::Local;
 
 fn main() {
     let datetime = Local::now().naive_local();
