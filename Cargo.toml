@@ -2,6 +2,8 @@
 name = "whattime"
 version = "1.0.1"
 edition = "2021"
+categories = ["command-line-utilities"]
+keywords = ["time", "whattimeisit"]
 description = "See the current time at any time!"
 repository = "https://github.com/yesseruser/whattimeisit"
 homepage = "https://github.com/yesseruser/whattimeisit"
