@@ -10,4 +10,4 @@ homepage = "https://github.com/yesseruser/whattimeisit"
 license = "GPL-3.0"
 
 [dependencies]
-chrono = "0.4"
+chrono = "0"
